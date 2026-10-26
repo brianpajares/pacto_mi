@@ -1,0 +1,26 @@
+{
+  "slug": "maap-233-mineria-de-oro-amazonia",
+  "type": "informe",
+  "title": {
+    "es": "MAAP #233: situación actual de la minería de oro en la Amazonía peruana",
+    "en": "MAAP #233: Current situation of gold mining in the Peruvian Amazon"
+  },
+  "description": {
+    "es": "Cifras de deforestación y de ríos y quebradas afectados por la minería aurífera en la Amazonía peruana.",
+    "en": "Figures on deforestation and on rivers and streams affected by gold mining in the Peruvian Amazon."
+  },
+  "modules": [
+    3
+  ],
+  "regions": [],
+  "language": "en",
+  "format": "Web",
+  "source": {
+    "kind": "url",
+    "href": "https://www.maapprogram.org/gold-mining-peru-amazon/"
+  },
+  "publisher": "MAAP",
+  "license": "Fuente externa",
+  "published": "2025-09-29",
+  "featured": true
+}

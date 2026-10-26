@@ -1,0 +1,9 @@
+[
+  { "id": "vc-analistas", "name": "V&C Analistas", "tier": "socio-principal", "confirmed": false },
+  { "id": "unc", "name": "Universidad Nacional de Cajamarca", "tier": "apoyo", "confirmed": false },
+  { "id": "up", "name": "Universidad del Pacífico", "tier": "apoyo", "confirmed": false },
+  { "id": "cincia", "name": "CINCIA – Centro de Innovación Científica Amazónica", "url": "https://sabincenter.wfu.edu/cincia/", "tier": "apoyo", "confirmed": false },
+  { "id": "plataforma-andina-mape", "name": "Plataforma Andina MAPE", "tier": "apoyo", "confirmed": false },
+  { "id": "iimp", "name": "Instituto de Ingenieros de Minas del Perú", "tier": "apoyo", "confirmed": false },
+  { "id": "buenaventura", "name": "Compañía de Minas Buenaventura", "tier": "apoyo", "confirmed": false }
+]

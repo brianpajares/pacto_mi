@@ -1,0 +1,28 @@
+{
+  "slug": "cincia-wake-forest",
+  "type": "enlace-externo",
+  "title": {
+    "es": "CINCIA: Centro de Innovación Científica Amazónica",
+    "en": "CINCIA: Amazon Center for Scientific Innovation"
+  },
+  "description": {
+    "es": "Ficha de CINCIA en el sitio del Centro Sabin de Wake Forest University.",
+    "en": "CINCIA profile on the Wake Forest University Sabin Center website."
+  },
+  "modules": [
+    3
+  ],
+  "regions": [
+    "madre-de-dios"
+  ],
+  "language": "en",
+  "format": "Web",
+  "source": {
+    "kind": "url",
+    "href": "https://sabincenter.wfu.edu/cincia/"
+  },
+  "publisher": "Wake Forest University",
+  "license": "Fuente externa",
+  "published": "2025-10",
+  "featured": false
+}

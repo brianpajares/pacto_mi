@@ -1,0 +1,549 @@
+{
+  "meta": {
+    "homeTitle": "PACTO-MI · Young people protecting their land",
+    "homeDescription": "Knowledge and resource platform against illegal mining: training, talks, workshop records and a network of leaders in Cajamarca and Madre de Dios, Peru.",
+    "projectTitle": "About the project",
+    "projectDescription": "Who we are, our mission, the team of five Fulbright alumni and the 2025 AEIF award, sponsored by the U.S. Embassy in Peru.",
+    "trainingTitle": "Civic training: six modules",
+    "trainingDescription": "Six modules that take you from understanding illegal mining to designing an action plan for your community. Materials, sessions and how to join.",
+    "talksTitle": "Talks and recordings",
+    "talksDescription": "2026 virtual talks series with experts in law, political analysis and the environment. Expert profiles and written summaries.",
+    "activitiesTitle": "Activities and workshop records",
+    "activitiesDescription": "Timeline of the in-person workshops in Cajamarca and Madre de Dios and of the virtual sessions, with figures, panelists and conclusions.",
+    "resourcesTitle": "Resource library",
+    "resourcesDescription": "Readings, reports, guides and materials on illegal mining. Search and filter by type, module, language or year, and share the link.",
+    "networkTitle": "Network of leaders",
+    "networkDescription": "Young people and leaders trained by PACTO-MI, connected to learn from each other. A voluntary directory that protects people’s safety.",
+    "impactTitle": "Impact: targets and progress",
+    "impactDescription": "PACTO-MI monitoring plan indicators: target, progress, source and cutoff date. We only show consolidated data.",
+    "newsTitle": "News",
+    "newsDescription": "Project updates and recommended readings on illegal mining, the environment, organized crime and public policy.",
+    "replicateTitle": "Bring PACTO-MI to your region",
+    "replicateDescription": "A guide and kit for universities, collectives and local governments to run their own workshop: invitations, multi-stakeholder panel and dilemmas.",
+    "contactTitle": "Contact and press",
+    "contactDescription": "Write to the project email, find our channels and the PACTO-MI press section.",
+    "privacyTitle": "Privacy and personal data",
+    "privacyDescription": "What data we handle and why, how the leaders’ directory works and how to ask us to remove your data.",
+    "creditsTitle": "Credits and disclaimer",
+    "creditsDescription": "Sponsorship, team, data sources, licenses and the funding disclaimer.",
+    "ogTagline": "Young people protecting their land",
+    "ogSponsor": "2025 AEIF winner, sponsored by the U.S. Embassy in Peru"
+  },
+  "nav": {
+    "home": "Home",
+    "main": "Main navigation",
+    "project": "About",
+    "training": "Training",
+    "talks": "Talks",
+    "activities": "Activities",
+    "resources": "Resources",
+    "network": "Network",
+    "impact": "Impact",
+    "news": "News",
+    "replicate": "Replicate",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "credits": "Credits",
+    "menu": "Menu",
+    "close": "Close",
+    "search": "Search resources",
+    "searchPlaceholder": "Search resources",
+    "linkedin": "PACTO-MI on LinkedIn",
+    "skip": "Skip to content"
+  },
+  "lang": { "switch": "Language", "es": "Español", "en": "English" },
+  "common": {
+    "updated": "Updated {date}",
+    "spanishOnly": "Available in Spanish only",
+    "source": "Source",
+    "opensNew": "(opens in a new tab)",
+    "breadcrumb": "Breadcrumb",
+    "decimal": ".",
+    "soon": "Coming soon",
+    "loading": "Loading…"
+  },
+  "sponsor": {
+    "label": "Sponsorship",
+    "text": "Winner of the 2025 Alumni Engagement Innovation Fund (AEIF), sponsored by the U.S. Embassy in Peru. An initiative of exchange alumni from the U.S.-Peru Alumni network (USPA).",
+    "disclaimer": "This project is funded by a grant from the United States Department of State. The opinions, findings, and conclusions stated herein are those of the authors and do not necessarily reflect those of the United States Department of State.",
+    "embassyAlt": "Seal of the U.S. Embassy in Lima",
+    "uspaAlt": "Logo of the U.S.-Peru Alumni network (USPA)"
+  },
+  "footer": {
+    "tagline": "Empowering young people to protect territories and strengthen formal mining.",
+    "explore": "Explore",
+    "withSupport": "With the support of",
+    "legal": "Legal",
+    "linkedin": "Follow the project on LinkedIn"
+  },
+  "map": {
+    "alt": "Contour map of Peru. Cajamarca, in the Andes, and Madre de Dios, in the Amazon, are highlighted and joined by an arc.",
+    "andes": "The Andes",
+    "amazon": "The Amazon"
+  },
+  "share": {
+    "title": "Share this page",
+    "shortLink": "Short link",
+    "copy": "Copy link",
+    "copied": "Link copied",
+    "qr": "Download QR",
+    "copyManual": "Copy this link:"
+  },
+  "video": { "play": "Play" },
+  "home": {
+    "hero": {
+      "eyebrow": "Platform for action against illegal mining",
+      "title": "Young people protecting their land",
+      "lede": "PACTO-MI trains and connects young people and community leaders in Cajamarca and Madre de Dios to prevent illegal mining and its ties to organized crime.",
+      "cta1": "See training materials",
+      "cta2": "Meet the network",
+      "sponsorLine": "2025 AEIF winner, sponsored by the U.S. Embassy in Peru."
+    },
+    "stats": { "label": "The project in numbers" },
+    "why": {
+      "eyebrow": "Why now?",
+      "title": "Getting informed is the first step to act",
+      "text": "Illegal mining doesn’t only destroy forests and rivers: it funds criminal economies and recruits young people. Getting informed is the first step to act."
+    },
+    "training": {
+      "title": "Six modules, one path",
+      "text": "Six modules that take you from understanding the problem to designing an action plan for your community.",
+      "cta": "See the program"
+    },
+    "talk": { "title": "Latest talk", "cta": "See the talk" },
+    "activities": {
+      "title": "What we have done and what comes next",
+      "text": "In-person workshops in Cajamarca and Madre de Dios, and a series of virtual talks with experts.",
+      "cta": "See all activities"
+    },
+    "network": {
+      "title": "A network to learn from each other",
+      "text": "Young people and leaders trained by PACTO-MI, connected to learn from each other and act together.",
+      "join": "Trained with PACTO-MI? Join the directory",
+      "cta": "Meet the network"
+    },
+    "resources": {
+      "title": "Readings and materials to get started",
+      "text": "Sourced reports and data to understand illegal mining. The toolkit and infographics will be added here.",
+      "cta": "Open the library"
+    },
+    "linkedin": {
+      "title": "Follow the project on LinkedIn",
+      "text": "We announce every new material and session on the PACTO-MI LinkedIn page.",
+      "soon": "We are preparing the link to our LinkedIn page. In the meantime, write to us and we will let you know about every update.",
+      "cta": "Follow PACTO-MI",
+      "contact": "Write to us"
+    }
+  },
+  "modules": {
+    "label": "Module {n}",
+    "view": "See the module",
+    "status": {
+      "programado": "Scheduled",
+      "en-curso": "In progress",
+      "completado": "Completed",
+      "por-confirmar": "Schedule to be confirmed"
+    },
+    "metaTitle": "Module {n}: civic training",
+    "modality": { "virtual": "Online", "presencial": "In person", "hibrido": "Hybrid" },
+    "modalityTbc": "Format to be confirmed",
+    "sessionsCount": "{count, plural, one {# session} other {# sessions}}",
+    "dateTbc": "Date to be confirmed",
+    "learn": "What you will learn",
+    "objectivesTbcTitle": "Objectives in preparation",
+    "objectivesTbcText": "We will publish this module’s learning objectives here once the academic team confirms them.",
+    "sessions": "Sessions and recordings",
+    "relatedTalk": "This talk from the 2026 virtual series is related to this module.",
+    "sessionsTbcTitle": "Schedule to be confirmed",
+    "sessionsTbcText": "We have not yet published the dates and facilitators for this module. Write to us or follow PACTO-MI on LinkedIn to get notified.",
+    "materials": "Materials",
+    "recommended": "Recommended readings related to this module.",
+    "materialsTbcTitle": "Presentations and guides in preparation",
+    "materialsTbcText": "This module’s materials will be published after its session.",
+    "evaluation": "Assessment",
+    "evaluationCta": "Take the assessment",
+    "evaluationTbcTitle": "Pre and post form in preparation",
+    "evaluationTbcText": "Assessments help us measure what each participant learned. We will enable the form along with the sessions.",
+    "prevNext": "Previous and next modules",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "training": {
+    "title": "Six modules to go from understanding to acting",
+    "lede": "A civic training program that takes you from understanding the problem to a local action plan for your community.",
+    "join": "I want to take part",
+    "joinFallback": "The registration form is in preparation. This button opens an email to the team.",
+    "mailSubject": "I want to take part in the PACTO-MI training",
+    "mailBody": "Hello, I want to take part in the PACTO-MI training. My name, region and organization are:",
+    "format": {
+      "title": "Format",
+      "text": "A hybrid program of six modules, with online sessions and in-person meetings in Cajamarca and Madre de Dios."
+    },
+    "audience": {
+      "title": "Who it is for",
+      "text": "225 university students aged 18 to 30 and 75 community leaders."
+    },
+    "calendar": {
+      "title": "Schedule",
+      "text": "The modules are under way. We will publish the dates, format and facilitators of each one here."
+    },
+    "pathEyebrow": "The path",
+    "pathTitle": "From understanding the problem to designing your plan",
+    "pathText": "The modules are a sequence: each one prepares the next.",
+    "calendarTbcTitle": "Schedule in preparation",
+    "calendarTbcText": "We are consolidating each module’s dates and where the recordings will live. We will publish them on this page."
+  },
+  "people": {
+    "fulbright": "Fulbright {year}",
+    "nameChecking": "Name being verified",
+    "talk": "Talk"
+  },
+  "talks": {
+    "title": "Talks and recordings",
+    "lede": "Listen to experts in law, political analysis and the environment. Every talk will have a written summary so you can read it even on a slow connection.",
+    "series2026": "2026",
+    "seriesName": "2026 Virtual Talks Series",
+    "seriesText": "Youth and leadership against illegal mining in Peru.",
+    "moreTitle": "More sessions are coming",
+    "moreText": "We will add each session of the series here, with its recording and summary, once each expert authorizes publication.",
+    "workshops": "In-person workshops",
+    "workshopsTitle": "Workshop recordings",
+    "workshopsEmptyTitle": "Recordings to be confirmed",
+    "workshopsEmptyText": "We will publish the Cajamarca and Madre de Dios workshop recordings once we confirm they exist and that every person authorized their publication.",
+    "expertsEyebrow": "Experts",
+    "expertsTitle": "Who is with us",
+    "expertsText": "Specialists who took part in the talks series.",
+    "viewTalk": "See the talk",
+    "sessionNumber": "Session {n}",
+    "editing": "Recording being edited",
+    "online": "Online",
+    "editingTitle": "Recording being edited",
+    "editingText": "We are editing the recording and confirming each speaker’s authorization. When it is ready, it will appear here with its summary.",
+    "summary": "Summary",
+    "summaryTbcTitle": "Summary in preparation",
+    "summaryTbcText": "We will publish a written summary with the session’s main points.",
+    "speakers": "Speakers",
+    "relatedModules": "Related modules",
+    "metaDescription": "PACTO-MI 2026 virtual talks series with {speakers}."
+  },
+  "activities": {
+    "title": "Activities and workshop records",
+    "lede": "PACTO-MI’s in-person workshops and virtual sessions, in chronological order. Each one has its own record page with figures, panelists and conclusions.",
+    "moreSoon": "We will add one entry for each session of the training modules.",
+    "dateTbc": "Date to be confirmed",
+    "status": {
+      "programado": "Scheduled",
+      "realizado": "Held",
+      "memoria-pendiente": "Record in preparation"
+    },
+    "viewRecord": "See the record",
+    "viewPage": "See the page",
+    "kind": {
+      "taller-presencial": "In-person workshop",
+      "sesion-virtual": "Virtual session",
+      "ponencia": "Talk",
+      "modulo": "Training module"
+    },
+    "pendingTitle": "Record in preparation",
+    "pendingText": "We are gathering the date, attendees, organizations, panelists, conclusions and photos, with the consent of the people in them. We will publish it here.",
+    "figures": "Key figures",
+    "attendance": "Attendance by organization",
+    "bySector": "Attendance by sector",
+    "speakers": "Speakers",
+    "panel": "Panel",
+    "methodology": "Methodology",
+    "lessons": "Lessons learned",
+    "recordings": "Recordings",
+    "gallery": "Gallery",
+    "galleryTbcTitle": "Gallery in preparation",
+    "galleryTbcText": "We only publish photos of people who gave their consent for the use of their image."
+  },
+  "charts": {
+    "attendanceAria": "Bar chart: registered attendees by organization. {n} organizations, {total} attendees in total. The equivalent table is below.",
+    "attendanceCaption": "Registered attendees by organization",
+    "sectorCaption": "Attendees by sector, in percent",
+    "showTable": "View the data as a table",
+    "organization": "Organization",
+    "attendees": "Attendees",
+    "total": "Total registered"
+  },
+  "resources": {
+    "title": "Resource library",
+    "lede": "Reports, readings, guides and materials to understand illegal mining and act. Filter by type, module, language or year, and share your search with the link.",
+    "types": {
+      "toolkit": "Toolkit",
+      "presentacion": "Presentation",
+      "guia": "Guide",
+      "infografia": "Infographic",
+      "lectura": "Reading",
+      "plantilla": "Template",
+      "informe": "Report",
+      "video": "Video",
+      "enlace-externo": "External link"
+    },
+    "lang": { "es": "Spanish", "en": "English", "es-en": "Spanish and English" },
+    "moduleShort": "M{n}",
+    "moduleLong": "Module {n}",
+    "openSource": "Open at the source",
+    "download": "Download",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Title, topic or source",
+    "filterType": "Type",
+    "filterModule": "Module",
+    "filterLanguage": "Language",
+    "filterYear": "Year",
+    "all": "All",
+    "count": "{count, plural, =0 {No resources} one {# resource} other {# resources}}",
+    "clear": "Clear filters",
+    "noResults": "We found no resources with those filters",
+    "noResultsText": "Try fewer filters or a different word.",
+    "soonTitle": "More materials are coming",
+    "soonText": "We are preparing the toolkit, the infographics, each module’s presentations and the templates. They will appear here with their file size shown before you download.",
+    "meta": {
+      "type": "Type",
+      "publisher": "Source",
+      "language": "Language",
+      "format": "Format",
+      "published": "Date",
+      "license": "License"
+    },
+    "externalNote": "This resource is by {publisher} and opens on its site. PACTO-MI recommends it as a reading and is not the author of the content.",
+    "usedIn": "Useful for these modules",
+    "related": "Related resources",
+    "details": "Resource details"
+  },
+  "network": {
+    "title": "A network of leaders who know and support each other",
+    "lede": "Young people and leaders trained by PACTO-MI, connected to learn from each other and act together.",
+    "join": "Join the directory",
+    "joinFallback": "The consent form is in preparation. This button opens an email to the team.",
+    "joinMailSubject": "I want to join the PACTO-MI leaders’ directory",
+    "joinMailBody": "Hello, I trained with PACTO-MI and want to join the directory. My region and my workshop or module of origin are:",
+    "emptyTitle": "The directory opens soon",
+    "emptyText": "We are preparing the registration form with informed consent. Once we have reviewed the first registrations, you will see the province map and the list of leaders here.",
+    "privacyEyebrow": "Safety first",
+    "privacyTitle": "A directory that connects without exposing",
+    "privacyText": "Illegal mining is linked to criminal networks and to violence against people who defend their land. So when in doubt, we show less.",
+    "promises": {
+      "optin": {
+        "title": "Only if you decide",
+        "text": "No one appears without having registered with informed consent. You choose whether your name, only your initials, or nothing is shown."
+      },
+      "province": {
+        "title": "Location up to the province",
+        "text": "The map aggregates by province. We never show district, community, coordinates or address."
+      },
+      "mediated": {
+        "title": "Mediated contact",
+        "text": "We do not publish phone numbers or emails. The team asks you before connecting you with anyone who requests it, and you can withdraw within 72 hours."
+      }
+    },
+    "initiativesEyebrow": "Joint action",
+    "initiativesTitle": "Joint initiatives",
+    "initiativesText": "Proposals from network leaders who are looking for allies to act in their territory.",
+    "initiativesEmptyTitle": "No initiatives published yet",
+    "initiativesEmptyText": "When network leaders propose initiatives, you will see them here with their region, what they are looking for and their status.",
+    "initiativeStatus": { "abierta": "Open", "en-curso": "In progress", "cerrada": "Closed" },
+    "seeking": "Looking for",
+    "all": "All",
+    "region": "Region",
+    "province": "Province",
+    "topic": "Topic",
+    "cohort": "Cohort",
+    "byName": "Search by name",
+    "mapNote": "The map shows the number of leaders per province, never exact points.",
+    "count": "{count, plural, =0 {No leaders} one {# leader} other {# leaders}}",
+    "mailSubject": "Contact request for {id}",
+    "mailBody": "Hello, I would like to contact {id}. Reason:",
+    "requestContact": "Request contact"
+  },
+  "impact": {
+    "title": "Impact: targets and progress",
+    "lede": "PACTO-MI’s monitoring plan indicators, with their target, progress, source and cutoff date.",
+    "note": "When a figure is not yet consolidated, we say so instead of showing an empty bar. We will update these figures as the program moves forward.",
+    "consolidating": "Data being consolidated",
+    "target": "Target",
+    "noTarget": "No target set",
+    "cutoff": "Cutoff"
+  },
+  "news": {
+    "title": "News",
+    "lede": "Project updates and recommended readings to follow the topic: regulations, reports and data on illegal mining.",
+    "rss": "Subscribe via RSS",
+    "kind": { "proyecto": "Project update", "lectura": "Recommended reading" },
+    "readAt": "Read at {source}"
+  },
+  "replicate": {
+    "title": "Bring PACTO-MI to your region",
+    "lede": "A guide and a kit for universities, collectives and local governments to run their own workshop using the format we tested in Cajamarca.",
+    "download": "Download the kit",
+    "request": "Request the kit",
+    "mailSubject": "I want to replicate PACTO-MI in my region",
+    "mailBody": "Hello, I represent an institution or collective and we want to replicate the PACTO-MI workshop. Our region and organization are:",
+    "howEyebrow": "The format",
+    "howTitle": "How the Cajamarca workshop was organized",
+    "howText": "Four steps you can adapt to your context.",
+    "steps": {
+      "s1": { "title": "Invite", "text": "Send letters of invitation to youth organizations, universities and volunteer collectives." },
+      "s2": { "title": "Register", "text": "Use a registration form to know who attends and which organizations they come from." },
+      "s3": { "title": "Bring sectors together", "text": "Organize a multi-stakeholder panel with industry, public policy, academia and youth leadership." },
+      "s4": { "title": "Work with dilemmas", "text": "Form small groups to work through real dilemmas and close with a plenary." }
+    },
+    "lessonsEyebrow": "What we learned",
+    "lessonsTitle": "Lessons from the Cajamarca workshop",
+    "lessonsText": "From the program progress report.",
+    "kitEyebrow": "The kit",
+    "kitTitle": "Templates for your workshop",
+    "kitText": "Ready-to-adapt documents you can brand with your institution’s name and logo.",
+    "templates": {
+      "invitation": "Letter of invitation",
+      "commitment": "Commitment letter",
+      "agenda": "Workshop agenda",
+      "registration": "Registration form",
+      "certificate": "Certificate of participation",
+      "checklist": "Logistics checklist"
+    },
+    "available": "Available",
+    "guideTitle": "Facilitation guide in preparation",
+    "guideText": "We are writing the step-by-step guide. If you want to replicate the workshop sooner, write to us and we will support you."
+  },
+  "contact": {
+    "title": "Let’s talk",
+    "lede": "To join the training, propose a partnership, request material or talk to the team, write to us.",
+    "email": "Project email",
+    "whatsapp": "Message on WhatsApp",
+    "privacyNote": "We will use your data only to reply to you.",
+    "formTitle": "Send us a message",
+    "formSoonTitle": "Form in preparation",
+    "formSoonText": "While we enable it, write to us directly at the project email.",
+    "writeUs": "Write to the email",
+    "pressEyebrow": "Press",
+    "pressTitle": "For journalists and researchers",
+    "pressText": "Every figure on the site carries its source and date so you can cite it.",
+    "pressKitTitle": "Press kit in preparation",
+    "pressKitText": "It will include logos with usage rules, approved photos and a fact sheet in Spanish and English. If you need it sooner,",
+    "pressMailSubject": "PACTO-MI press inquiry",
+    "pressWrite": "write to us."
+  },
+  "privacy": {
+    "title": "Privacy and personal data",
+    "lede": "We wrote this page in plain language. When in doubt, we handle less data.",
+    "collect": {
+      "title": "What data we handle",
+      "text": "This site has no accounts or forms of its own. If you register, write to us or join the directory, you do it through external forms (Google Forms or Tally) or by email; that data does not pass through this site."
+    },
+    "analytics": {
+      "title": "Cookie-free analytics",
+      "text": "We use Vercel Web Analytics and Speed Insights to measure visits and performance. They use no cookies and do not follow people across sites. We use no third-party tracking pixels."
+    },
+    "purpose": {
+      "title": "What we use it for",
+      "text": "Only to manage your registration, answer your questions and, if you authorize it, show you in the leaders’ directory."
+    },
+    "directory": {
+      "title": "Leaders’ directory",
+      "text": "Appearing is voluntary and based on informed consent. You choose the visibility level: public (name, organization and LinkedIn), initials (only initials, province and topics) or hidden (you count on the map but do not appear in the list). We show the province at most: never district, community, coordinates or address, and we do not publish phone numbers or emails. The “Request contact” button goes through the team, who ask you before connecting. Every profile is reviewed manually before it is published."
+    },
+    "withdraw": {
+      "title": "How to withdraw your data",
+      "text": "You can ask us to remove your data from the directory by writing to the project email. We commit to removing it within 72 hours at most."
+    },
+    "images": {
+      "title": "Photos and videos",
+      "text": "We only publish photos and videos of people who gave their written consent for the use of their image."
+    },
+    "law": {
+      "title": "Legal framework",
+      "text": "We handle personal data in accordance with Peru’s Law No. 29733, the Personal Data Protection Law."
+    },
+    "contactLine": "To exercise your rights or ask questions, write to"
+  },
+  "credits": {
+    "title": "Credits and disclaimer",
+    "lede": "Who makes PACTO-MI possible and where each piece of data comes from.",
+    "sponsorTitle": "Sponsorship",
+    "disclaimerTitle": "Disclaimer",
+    "teamTitle": "Team",
+    "partnersTitle": "With the support of",
+    "sourcesTitle": "Data sources",
+    "licenseTitle": "Licenses",
+    "licenseText": "Unless stated otherwise, PACTO-MI’s own materials are shared under a CC BY-NC 4.0 license. Third-party materials keep their own license and link to their source.",
+    "photoTitle": "Photography",
+    "photoText": "Photos of activities are published only with the consent of the people photographed. There is no published gallery yet."
+  },
+  "project": {
+    "title": "Five Fulbright alumni, one youth network against illegal mining",
+    "lede": "PACTO-MI is the Platform for Action against Illegal Mining: a project that trains and connects young people and leaders in Cajamarca and Madre de Dios.",
+    "sponsorLine": "2025 Alumni Engagement Innovation Fund (AEIF) winner, sponsored by the U.S. Embassy in Peru.",
+    "origin": {
+      "eyebrow": "Origin",
+      "title": "Why we decided to act",
+      "p1": "PACTO-MI was born from five Fulbright alumni from Cajamarca who identified an information gap about illegal mining in communities and universities, and decided to act.",
+      "p2": "Sponsored by the U.S. Embassy in Peru, we train young people and leaders with rigorous knowledge, practical tools and an action network."
+    },
+    "mission": {
+      "label": "Mission",
+      "text": "To train and connect young people and community leaders in Cajamarca and Madre de Dios with rigorous knowledge, practical tools and an action network, so they can prevent illegal mining and its ties to organized crime and strengthen formal mining that is responsible to the land and its people."
+    },
+    "vision": {
+      "label": "Vision",
+      "text": "A youth network present in every Peruvian region affected by illegal mining, turning outrage into informed civic action and serving as a reference across Latin America for the defense of territory."
+    },
+    "goal": {
+      "label": "General objective",
+      "text": "To create a Youth Action Network to combat illegal mining and its ties to organized crime by empowering at least 300 youth and community leaders with the knowledge, tools, and skills needed for effective prevention and advocacy."
+    },
+    "values": {
+      "eyebrow": "Values",
+      "title": "How we work",
+      "evidence": { "name": "Evidence", "text": "We speak with data and verifiable sources." },
+      "territory": { "name": "Territory", "text": "We start from each community’s reality, in the Andes and the Amazon." },
+      "youth": { "name": "Youth-led", "text": "Young people are not an audience: they lead." },
+      "articulation": { "name": "Collaboration", "text": "Public sector, formal industry, academia and civil society at the same table." },
+      "care": { "name": "Care", "text": "We protect the safety and data of everyone who takes part." }
+    },
+    "aeif": {
+      "title": "About the AEIF",
+      "p1": "The Alumni Engagement Innovation Fund (AEIF) is a U.S. Department of State initiative, implemented in Peru by the U.S. Embassy, that funds projects led by exchange program alumni.",
+      "p2": "Proposals go through a national and a global review. In 2025, the team of five alumni from Cajamarca who created PACTO-MI was selected at both stages."
+    },
+    "fronts": {
+      "title": "Four lines of work",
+      "f1": "In-person meetings in Cajamarca and Madre de Dios with community leaders and the public and private sectors.",
+      "f2": "Digital campaigns to show the impact and the spread of illegal mining.",
+      "f3": "Strategic collaboration with academic, scientific and business partners.",
+      "f4": "Community action and youth leadership, turning social outrage into active participation."
+    },
+    "components": {
+      "title": "Five components",
+      "c1": { "name": "Participatory workshops", "text": "In-person meetings with an expert panel, hands-on exercises and dilemmas in small groups." },
+      "c2": { "name": "Expert talks", "text": "A virtual series with specialists in law, political analysis and the environment." },
+      "c3": { "name": "Civic training", "text": "Six modules, from understanding the problem to a local action plan." },
+      "c4": { "name": "Toolkit", "text": "Practical tools to facilitate and replicate the work, in print and digital versions." },
+      "c5": { "name": "Sustainability", "text": "Commitment letters and this digital platform to sustain and replicate the project." }
+    },
+    "team": {
+      "eyebrow": "Team",
+      "title": "Who we are",
+      "text": "Five Fulbright alumni from Cajamarca with experience in mining, social performance, innovation and education.",
+      "note": "Photos and professional links will be added with each member’s consent."
+    },
+    "partners": {
+      "title": "Partners",
+      "withSupport": "With the support of",
+      "emptyTitle": "Partners being confirmed",
+      "emptyText": "We are confirming each institution’s participation and logo permissions. We will show them here with the “with the support of” formula."
+    },
+    "timeline": {
+      "eyebrow": "Milestones",
+      "title": "What has happened and what comes next",
+      "text": "The project’s activities in chronological order."
+    }
+  },
+  "notFound": {
+    "title": "We could not find this page",
+    "text": "The link may have changed or the page may not exist yet. Go back home or search the resource library.",
+    "home": "Go home",
+    "search": "Search resources"
+  }
+}

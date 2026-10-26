@@ -1,0 +1,4 @@
+[
+  { "id": "cajamarca", "name": { "es": "Cajamarca", "en": "Cajamarca" }, "ubigeo": "06", "status": "activa" },
+  { "id": "madre-de-dios", "name": { "es": "Madre de Dios", "en": "Madre de Dios" }, "ubigeo": "17", "status": "activa" }
+]

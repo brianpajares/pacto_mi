@@ -1,0 +1,14 @@
+{
+  "slug": "lanzamiento-plataforma",
+  "date": "2026-10-26",
+  "kind": "proyecto",
+  "title": {
+    "es": "Lanzamos la plataforma digital de conocimiento y recursos de PACTO-MI",
+    "en": "We launch the PACTO-MI digital knowledge and resource platform"
+  },
+  "summary": {
+    "es": "Un solo lugar para los módulos de formación, las ponencias, las memorias de los talleres y la red de líderes. Se actualizará durante el proyecto y servirá para llevar PACTO-MI a nuevas regiones.",
+    "en": "One place for the training modules, the talks, the workshop records and the leaders' network. It will be updated throughout the project and will help take PACTO-MI to new regions."
+  },
+  "tags": [{ "es": "Proyecto", "en": "Project" }]
+}

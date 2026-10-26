@@ -1,0 +1,16 @@
+{
+  "slug": "maap-233",
+  "date": "2025-09-29",
+  "kind": "lectura",
+  "title": {
+    "es": "MAAP #233: la minería de oro deforestó 139 169 ha de la Amazonía peruana",
+    "en": "MAAP #233: gold mining has deforested 139,169 ha of the Peruvian Amazon"
+  },
+  "summary": {
+    "es": "El informe de MAAP (en inglés) actualiza las cifras de deforestación y de ríos y quebradas con actividad minera aurífera.",
+    "en": "The MAAP report updates the figures on deforestation and on rivers and streams with gold-mining activity."
+  },
+  "tags": [{ "es": "Ambiente", "en": "Environment" }],
+  "sourceName": "MAAP",
+  "sourceUrl": "https://www.maapprogram.org/gold-mining-peru-amazon/"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "ciclo-2026-sesion-01",
+  "title": {
+    "es": "Ciclo de ponencias virtuales 2026 · Sesión 01",
+    "en": "2026 Virtual Talks Series · Session 01"
+  },
+  "series": "ciclo-virtual-2026",
+  "date": "2026-03-05T19:00:00-05:00",
+  "speakers": ["cesar-ipenza", "ivan-arenas", "johana-cardenas"],
+  "modules": [1, 3, 5],
+  "summary": []
+}

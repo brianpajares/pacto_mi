@@ -1,0 +1,27 @@
+{
+  "slug": "mongabay-tendencias-mineras-amazonia",
+  "type": "lectura",
+  "title": {
+    "es": "Una mirada de cerca a la Amazonía peruana revela nuevas tendencias mineras y de deforestación",
+    "en": "A closer look at Peru's Amazon reveals new mining trends, deforestation"
+  },
+  "description": {
+    "es": "Lectura recomendada sobre las tendencias mineras y la deforestación en la Amazonía peruana.",
+    "en": "Recommended reading on mining trends and deforestation in the Peruvian Amazon."
+  },
+  "modules": [
+    1,
+    3
+  ],
+  "regions": [],
+  "language": "en",
+  "format": "Web",
+  "source": {
+    "kind": "url",
+    "href": "https://news.mongabay.com/2025/10/a-closer-look-at-perus-amazon-reveals-new-mining-trends-deforestation/"
+  },
+  "publisher": "Mongabay",
+  "license": "Fuente externa",
+  "published": "2025-10",
+  "featured": false
+}

@@ -1,0 +1,22 @@
+{
+  "n": 6,
+  "slug": {
+    "es": "modulo-6",
+    "en": "module-6"
+  },
+  "title": {
+    "es": "Elaboración de planes de acción locales para la intervención comunitaria",
+    "en": "Development of localized action plans for community intervention"
+  },
+  "summary": {
+    "es": "Cómo elaborar un plan de acción local para intervenir en tu comunidad.",
+    "en": "How to develop a local action plan to take action in your community."
+  },
+  "objectives": [],
+  "sessions": [],
+  "status": "por-confirmar",
+  "goal": {
+    "es": "Meta del programa: que el 90 % de participantes presente un plan de acción local al terminar este módulo.",
+    "en": "Program goal: 90% of participants present a local action plan by the end of this module."
+  }
+}

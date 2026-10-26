@@ -1,0 +1,16 @@
+name: Enlaces semanales
+
+on:
+  schedule:
+    - cron: "0 13 * * 1" # lunes 8:00 a. m. hora de Lima
+  workflow_dispatch:
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/check-links.mjs

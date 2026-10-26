@@ -1,0 +1,107 @@
+[
+  {
+    "id": "participantes-cajamarca",
+    "group": "proyecto",
+    "value": 220,
+    "label": { "es": "participantes en el taller de Cajamarca", "en": "participants at the Cajamarca workshop" },
+    "source": "Informe de avance del programa",
+    "asOf": "2026-01-26"
+  },
+  {
+    "id": "organizaciones",
+    "group": "proyecto",
+    "value": 11,
+    "label": { "es": "organizaciones juveniles y de voluntariado convocadas", "en": "youth and volunteer organizations convened" },
+    "source": "Informe de avance del programa",
+    "asOf": "2026-01-26"
+  },
+  {
+    "id": "modulos",
+    "group": "proyecto",
+    "value": 6,
+    "label": { "es": "módulos de formación ciudadana en curso", "en": "civic training modules under way" },
+    "source": "Propuesta AEIF 2025",
+    "asOf": "2026-10-26"
+  },
+  {
+    "id": "regiones",
+    "group": "proyecto",
+    "value": 2,
+    "label": { "es": "regiones: Cajamarca y Madre de Dios", "en": "regions: Cajamarca and Madre de Dios" },
+    "source": "Propuesta AEIF 2025",
+    "asOf": "2026-10-26"
+  },
+  {
+    "id": "deforestacion-amazonia",
+    "group": "contexto",
+    "value": 139169,
+    "unit": { "es": "ha", "en": "ha" },
+    "label": {
+      "es": "deforestadas por minería aurífera en la Amazonía peruana (a mediados de 2025)",
+      "en": "deforested by gold mining in the Peruvian Amazon (as of mid-2025)"
+    },
+    "source": "MAAP #233",
+    "sourceUrl": "https://www.maapprogram.org/gold-mining-peru-amazon/",
+    "asOf": "2025-09-29"
+  },
+  {
+    "id": "mdd-share",
+    "group": "contexto",
+    "value": 97.5,
+    "decimals": 1,
+    "unit": { "es": "%", "en": "%" },
+    "label": { "es": "de esa deforestación ocurre en Madre de Dios", "en": "of that deforestation is in Madre de Dios" },
+    "source": "MAAP #233",
+    "sourceUrl": "https://www.maapprogram.org/gold-mining-peru-amazon/",
+    "asOf": "2025-09-29"
+  },
+  {
+    "id": "rios-afectados",
+    "group": "contexto",
+    "value": 225,
+    "label": { "es": "ríos y quebradas con actividad minera aurífera", "en": "rivers and streams with gold-mining activity" },
+    "source": "MAAP #233",
+    "sourceUrl": "https://www.maapprogram.org/gold-mining-peru-amazon/",
+    "asOf": "2025-09-29"
+  },
+  {
+    "id": "flujo-financiero",
+    "group": "contexto",
+    "value": 3355,
+    "prefix": "US$ ",
+    "unit": { "es": "millones", "en": "million" },
+    "label": {
+      "es": "movidos por la minería ilegal entre octubre de 2024 y octubre de 2025",
+      "en": "moved by illegal mining between October 2024 and October 2025"
+    },
+    "source": "UIF-SBS vía Observatorio de Minería Ilegal (EFE)",
+    "sourceUrl": "https://www.eloriente.com/articulo/peru-mineria-ilegal-mueve-en-ultimo-ano-3355-millones-de-dolares/54643",
+    "asOf": "2025-12-19"
+  },
+  {
+    "id": "mdd-1985-2017",
+    "group": "contexto",
+    "value": 95750,
+    "unit": { "es": "ha", "en": "ha" },
+    "label": {
+      "es": "deforestadas por la minería de oro en Madre de Dios entre 1985 y 2017",
+      "en": "deforested by gold mining in Madre de Dios between 1985 and 2017"
+    },
+    "source": "CINCIA, reseñado en ProActivo",
+    "sourceUrl": "https://proactivo.com.pe/deforestacion-por-mineria-de-oro-en-madre-de-dios-es-la-mas-alta-en-los-ultimos-32-anos/",
+    "asOf": "2018-09-10"
+  },
+  {
+    "id": "mercurio-peces",
+    "group": "contexto",
+    "value": 43,
+    "unit": { "es": "%", "en": "%" },
+    "label": {
+      "es": "más de mercurio en los peces de zonas mineras que en los del Parque Nacional del Manu",
+      "en": "more mercury in fish from mining areas than in those from Manu National Park"
+    },
+    "source": "CINCIA, reseñado en ProActivo",
+    "sourceUrl": "https://proactivo.com.pe/deforestacion-por-mineria-de-oro-en-madre-de-dios-es-la-mas-alta-en-los-ultimos-32-anos/",
+    "asOf": "2018-09-10"
+  }
+]

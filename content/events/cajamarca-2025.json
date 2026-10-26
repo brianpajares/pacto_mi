@@ -1,0 +1,84 @@
+{
+  "slug": "cajamarca-2025",
+  "title": {
+    "es": "Taller presencial: Minería Ilegal y Desarrollo en Cajamarca",
+    "en": "In-person workshop: Illegal Mining and Its Impact on Development in Cajamarca"
+  },
+  "kind": "taller-presencial",
+  "date": "2025-11-19",
+  "region": "cajamarca",
+  "venue": { "es": "Universidad Nacional de Cajamarca", "en": "National University of Cajamarca" },
+  "modality": { "es": "Presencial", "en": "In person" },
+  "summary": {
+    "es": "Jóvenes, líderes y ciudadanos de Cajamarca se reunieron para entender la minería ilegal desde la política pública, la industria, la academia y el liderazgo juvenil.",
+    "en": "Young people, leaders and citizens of Cajamarca came together to understand illegal mining from the perspectives of public policy, industry, academia and youth leadership."
+  },
+  "stats": [
+    { "label": { "es": "participantes", "en": "participants" }, "value": 220, "source": "Informe de avance del programa, 26 de enero de 2026" },
+    { "label": { "es": "organizaciones juveniles y de voluntariado", "en": "youth and volunteer organizations" }, "value": 11, "source": "Informe de avance del programa" },
+    { "label": { "es": "ciudadanos independientes", "en": "independent citizens" }, "value": 95, "source": "Informe de avance del programa" }
+  ],
+  "attendanceByOrg": [
+    { "org": "Independientes", "n": 95 },
+    { "org": "UNC (estudiantes)", "n": 35 },
+    { "org": "Resurgir Verde", "n": 13 },
+    { "org": "SME", "n": 12 },
+    { "org": "OpenMind", "n": 8 },
+    { "org": "WIM", "n": 7 },
+    { "org": "Red IQ", "n": 7 },
+    { "org": "UPN (estudiantes)", "n": 5 },
+    { "org": "ASIMET", "n": 4 },
+    { "org": "SENATI", "n": 4 },
+    { "org": "Impacta", "n": 3 },
+    { "org": "AMA", "n": 3 },
+    { "org": "RAJUCAJ", "n": 3 },
+    { "org": "Líderes (Bambamarca, Cajamarca)", "n": 3 },
+    { "org": "Amautas Mineros", "n": 2 },
+    { "org": "Newmont ALAC", "n": 2 },
+    { "org": "Jóvenes del Milenio", "n": 1 },
+    { "org": "Newmont Yanacocha", "n": 1 },
+    { "org": "MIDIS", "n": 1 },
+    { "org": "OEFA", "n": 1 }
+  ],
+  "attendanceBySector": [
+    { "es": "Participación independiente", "en": "Independent participants", "pct": 46.7 },
+    { "es": "Organizaciones juveniles y de voluntariado", "en": "Youth and volunteer organizations", "pct": 30.0 },
+    { "es": "Estudiantes", "en": "Students", "pct": 21.0 },
+    { "es": "Instituciones privadas", "en": "Private institutions", "pct": 1.3 },
+    { "es": "Instituciones públicas", "en": "Public institutions", "pct": 1.0 }
+  ],
+  "attendanceNote": {
+    "es": "Asistentes registrados por organización (n = 210). La cifra oficial de participantes del taller es 220; el equipo está consolidando la diferencia.",
+    "en": "Registered attendees by organization (n = 210). The official workshop attendance is 220; the team is reconciling the difference."
+  },
+  "panel": ["arturo-bazan-vigo", "ivan-arenas", "jhuleyssy-sanchez", "carlos-claux", "licare-peru"],
+  "methodology": [
+    {
+      "es": "Panel multiactor con industria, política pública, academia y liderazgo juvenil",
+      "en": "Multi-stakeholder panel with industry, public policy, academia and youth leadership"
+    },
+    {
+      "es": "Ejercicios prácticos y dilemas reales en grupos pequeños",
+      "en": "Hands-on exercises and real-life dilemmas in small groups"
+    },
+    { "es": "Reflexión en plenaria", "en": "Plenary reflection" }
+  ],
+  "lessons": [
+    {
+      "es": "Las metodologías participativas y vivenciales aumentan el compromiso y el aprendizaje, sobre todo en jóvenes.",
+      "en": "Participatory, experiential methods increase engagement and learning, especially among young people."
+    },
+    {
+      "es": "Los paneles multiactor enriquecen la discusión con perspectivas públicas, privadas, de sociedad civil y juveniles.",
+      "en": "Multi-stakeholder panels enrich the discussion with public, private, civil-society and youth perspectives."
+    },
+    {
+      "es": "Trabajar con dilemas reales profundiza la reflexión sobre las dimensiones territoriales, sociales y económicas de la minería ilegal.",
+      "en": "Working through real dilemmas deepens reflection on the territorial, social and economic dimensions of illegal mining."
+    }
+  ],
+  "gallery": [],
+  "resources": [],
+  "videos": [],
+  "status": "realizado"
+}

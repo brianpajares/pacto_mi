@@ -1,0 +1,367 @@
+@import "tailwindcss";
+
+/* Sistema de diseño «Dos territorios, una red» (PRD §12) */
+@theme {
+  --color-escudo: #a71920;
+  --color-escudo-oscuro: #861217;
+  --color-tinta: #1e2a44;
+  --color-tinta-profunda: #141d33;
+  --color-rio: #0f6b5c;
+  --color-oro: #c8962e;
+  --color-piedra: #e9ece6;
+  --color-piedra-clara: #f4f6f2;
+  --color-borde: #d5dacf;
+  --color-texto: #1f2933;
+  --color-suave: #4a5663;
+
+  --font-display: var(--font-archivo), "Arial Narrow", Arial, sans-serif;
+  --font-sans: var(--font-public), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --breakpoint-xs: 30rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: #fff;
+    color: var(--color-texto);
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  @media (min-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-stretch: 82%;
+    color: var(--color-tinta);
+    letter-spacing: -0.012em;
+    text-wrap: balance;
+  }
+  h1 {
+    font-size: clamp(2.5rem, 7.2vw + 0.6rem, 4.5rem);
+    line-height: 0.98;
+  }
+  h2 {
+    font-size: clamp(1.75rem, 3.4vw + 0.8rem, 2.75rem);
+    line-height: 1.04;
+  }
+  h3 {
+    font-size: clamp(1.3rem, 1vw + 1rem, 1.625rem);
+    line-height: 1.12;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  a {
+    color: var(--color-escudo);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+  }
+  a:hover {
+    text-decoration-thickness: 2px;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-tinta);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px #fff;
+    border-radius: 2px;
+  }
+  .on-dark :focus-visible {
+    outline-color: #fff;
+    box-shadow: 0 0 0 5px var(--color-tinta);
+  }
+  ::selection {
+    background: var(--color-escudo);
+    color: #fff;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@layer components {
+  .wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 16px;
+  }
+  @media (min-width: 768px) {
+    .wrap {
+      padding-inline: 32px;
+    }
+  }
+  .section {
+    padding-block: 64px;
+  }
+  @media (min-width: 1024px) {
+    .section {
+      padding-block: 96px;
+    }
+  }
+  .display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-stretch: 78%;
+    letter-spacing: -0.01em;
+    line-height: 1;
+  }
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-escudo);
+    letter-spacing: 0.01em;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .eyebrow::before {
+    content: "";
+    width: 28px;
+    height: 2px;
+    background: currentColor;
+  }
+  .on-dark .eyebrow {
+    color: #fff;
+  }
+  .lede {
+    font-size: clamp(1.125rem, 0.6vw + 1rem, 1.375rem);
+    line-height: 1.5;
+    color: var(--color-texto);
+    max-width: 62ch;
+  }
+  .prose-pacto {
+    max-width: 68ch;
+  }
+  .prose-pacto > * + * {
+    margin-top: 1em;
+  }
+  .prose-pacto h2 {
+    margin-top: 1.6em;
+  }
+  .prose-pacto h3 {
+    margin-top: 1.4em;
+  }
+  .prose-pacto ul {
+    list-style: disc;
+    padding-left: 1.3em;
+  }
+  .prose-pacto li + li {
+    margin-top: 0.4em;
+  }
+
+  /* Botones: 44 px mínimo de alto (R-131) */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 48px;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-decoration: none;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition:
+      background-color 0.12s,
+      color 0.12s,
+      border-color 0.12s;
+  }
+  .btn-primary {
+    background: var(--color-escudo);
+    color: #fff;
+  }
+  .btn-primary:hover {
+    background: var(--color-escudo-oscuro);
+  }
+  .btn-secondary {
+    background: #fff;
+    color: var(--color-tinta);
+    border-color: var(--color-tinta);
+  }
+  .btn-secondary:hover {
+    background: var(--color-tinta);
+    color: #fff;
+  }
+  .btn-ghost {
+    background: transparent;
+    color: var(--color-tinta);
+    border-color: var(--color-borde);
+  }
+  .btn-ghost:hover {
+    border-color: var(--color-tinta);
+  }
+  .on-dark .btn-secondary {
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+  }
+  .on-dark .btn-secondary:hover {
+    background: #fff;
+    color: var(--color-tinta);
+  }
+  .btn[aria-disabled="true"] {
+    opacity: 0.55;
+    pointer-events: none;
+  }
+  .btn-sm {
+    min-height: 44px;
+    padding: 8px 16px;
+    font-size: 0.9375rem;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid var(--color-borde);
+    border-radius: 6px;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: 1.5;
+    background: var(--color-piedra);
+    color: var(--color-tinta);
+  }
+  .chip-rio {
+    background: #dcefe9;
+    color: #0b5246;
+  }
+  .chip-escudo {
+    background: #f6e0e1;
+    color: #861217;
+  }
+  .chip-oro {
+    background: #f7ecd2;
+    color: #6b4c0d;
+  }
+  .pattern-bg {
+    background-image: url("/patterns/contours.svg");
+    background-size: cover;
+    background-position: center;
+  }
+  .rule-top {
+    border-top: 3px solid var(--color-escudo);
+  }
+
+  /* Campo de texto */
+  .field {
+    width: 100%;
+    min-height: 48px;
+    padding: 10px 14px;
+    border: 1.5px solid #8a95a1;
+    border-radius: 6px;
+    background: #fff;
+    color: var(--color-texto);
+    font: inherit;
+    font-size: 1rem;
+  }
+  .field:focus-visible {
+    border-color: var(--color-tinta);
+  }
+
+  .foot-h {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-stretch: 100%;
+    font-size: 1rem;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: #fff;
+    margin-top: 1.5rem;
+  }
+  .foot-h:first-child {
+    margin-top: 0;
+  }
+  .skip-link {
+    position: absolute;
+    left: 16px;
+    top: -80px;
+    z-index: 100;
+    background: var(--color-tinta);
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-weight: 700;
+  }
+  .skip-link:focus {
+    top: 12px;
+  }
+}
+
+/* Única animación orquestada: trazado del arco Cajamarca–Madre de Dios (1,2 s) */
+@keyframes draw-arc {
+  from {
+    stroke-dashoffset: var(--arc-len);
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes pop-dot {
+  from {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.arc-path {
+  stroke-dasharray: var(--arc-len);
+  stroke-dashoffset: 0;
+  animation: draw-arc 1.2s cubic-bezier(0.65, 0, 0.35, 1) 0.35s both;
+}
+.arc-dot {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: pop-dot 0.3s ease-out 1.5s both;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .arc-path,
+  .arc-dot {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  header,
+  footer .no-print,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    font-size: 12pt;
+  }
+}

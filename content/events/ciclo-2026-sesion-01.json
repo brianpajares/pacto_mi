@@ -1,0 +1,23 @@
+{
+  "slug": "ciclo-2026-sesion-01",
+  "title": {
+    "es": "Ciclo de ponencias virtuales 2026 · Sesión 01: Juventud y liderazgo frente a la minería ilegal en el Perú",
+    "en": "2026 Virtual Talks Series · Session 01: Youth and leadership against illegal mining in Peru"
+  },
+  "kind": "sesion-virtual",
+  "date": "2026-03-05T19:00:00-05:00",
+  "venue": { "es": "Virtual", "en": "Online" },
+  "modality": { "es": "Virtual · 7:00 p. m. (hora de Lima)", "en": "Online · 7:00 p.m. (Lima time)" },
+  "summary": {
+    "es": "Tres expertos presentaron el marco legal, el panorama actual y los impactos ambientales y socioeconómicos de la minería ilegal en el Perú.",
+    "en": "Three experts presented the legal framework, the current landscape, and the environmental and socio-economic impacts of illegal mining in Peru."
+  },
+  "stats": [],
+  "panel": ["cesar-ipenza", "ivan-arenas", "johana-cardenas"],
+  "methodology": [],
+  "lessons": [],
+  "gallery": [],
+  "resources": [],
+  "videos": ["ciclo-2026-sesion-01"],
+  "status": "realizado"
+}

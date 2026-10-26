@@ -1,0 +1,117 @@
+[
+  {
+    "id": "deicy-sanchez",
+    "name": "Deicy Noemi Sánchez Espinoza",
+    "kind": "equipo",
+    "order": 1,
+    "role": { "es": "Líder del equipo · Coordinación social", "en": "Team lead · Social coordination" },
+    "fulbright": { "program": "Fulbright", "year": 2012 },
+    "bio": {
+      "es": "Especialista socioambiental con más de 15 años en el sector minero. Conduce la estrategia de impacto social, la articulación con organizaciones de base y la comunicación culturalmente pertinente.",
+      "en": "Socio-environmental specialist with more than 15 years in the mining sector. Leads the social impact strategy, engagement with grassroots organizations and culturally relevant communication."
+    }
+  },
+  {
+    "id": "yesenia-pelaez",
+    "name": "Yesenia Hayme Peláez Lobato",
+    "kind": "equipo",
+    "order": 2,
+    "role": { "es": "Coordinación social", "en": "Social coordination" },
+    "fulbright": { "program": "Fulbright", "year": 2014 },
+    "bio": {
+      "es": "Más de 10 años en desempeño social en minería y estándares internacionales. Co-lidera el diálogo con actores, la facilitación de talleres participativos y los planes de acción con jóvenes y líderes.",
+      "en": "More than 10 years in social performance in mining and international standards. Co-leads stakeholder dialogue, the facilitation of participatory workshops and action plans with young people and leaders."
+    }
+  },
+  {
+    "id": "brian-pajares",
+    "name": "Brian David Pajares Correa",
+    "kind": "equipo",
+    "order": 3,
+    "role": { "es": "Coordinación de innovación", "en": "Innovation coordination" },
+    "fulbright": { "program": "Fulbright", "year": 2013 },
+    "bio": {
+      "es": "Ingeniero mecánico especializado en innovación tecnológica para minería. Lidera la estrategia tecnológica, los formatos digitales de los materiales y la plataforma de recursos en línea.",
+      "en": "Mechanical engineer specialized in technological innovation for mining. Leads the technology strategy, the digital formats of the materials and the online resource platform."
+    }
+  },
+  {
+    "id": "luis-cotrina",
+    "name": "Luis Miguel Cotrina Malca",
+    "kind": "equipo",
+    "order": 4,
+    "role": { "es": "Coordinación académica", "en": "Academic coordination" },
+    "fulbright": { "program": "Fulbright", "year": 2013 },
+    "bio": {
+      "es": "Más de 10 años liderando programas de posgrado y educación continua. Dirige el diseño curricular, la calidad de los módulos y las alianzas con universidades.",
+      "en": "More than 10 years leading graduate programs and continuing education. Directs curriculum design, module quality and partnerships with universities."
+    }
+  },
+  {
+    "id": "jhuleyssy-sanchez",
+    "name": "Jhuleyssy Liesseth Sánchez Aguilar",
+    "kind": "equipo",
+    "order": 5,
+    "role": { "es": "Coordinación general del proyecto", "en": "Project general coordination" },
+    "fulbright": { "program": "Fulbright", "year": 2022 },
+    "bio": {
+      "es": "Ingeniera geóloga enfocada en optimización minera, sostenibilidad e innovación; mentora en programas de verano de Michigan Technological University. Coordina logística, hitos, reportes y la supervisión de la plataforma y el toolkit.",
+      "en": "Geological engineer focused on mining optimization, sustainability and innovation; mentor in Michigan Technological University summer programs. Coordinates logistics, milestones, reporting and oversight of the platform and the toolkit."
+    }
+  },
+  {
+    "id": "cesar-ipenza",
+    "name": "César Ipenza",
+    "kind": "experto",
+    "role": {
+      "es": "Abogado especializado en materia ambiental; vocero del Observatorio de Minería Ilegal",
+      "en": "Environmental lawyer; spokesperson for the Illegal Mining Observatory"
+    },
+    "talk": { "es": "Marco legal frente a la minería ilegal", "en": "Legal framework against illegal mining" }
+  },
+  {
+    "id": "ivan-arenas",
+    "name": "Javier Iván Arenas Ramírez",
+    "kind": "experto",
+    "role": { "es": "Analista político", "en": "Political analyst" },
+    "talk": {
+      "es": "Panorama actual de la minería ilegal en el Perú",
+      "en": "The current landscape of illegal mining in Peru"
+    }
+  },
+  {
+    "id": "johana-cardenas",
+    "name": "Johana Cárdenas",
+    "kind": "experto",
+    "role": { "es": "Ingeniera ambiental", "en": "Environmental engineer" },
+    "talk": {
+      "es": "Impactos ambientales y socioeconómicos de la minería ilegal",
+      "en": "Environmental and socio-economic impacts of illegal mining"
+    }
+  },
+  {
+    "id": "arturo-bazan-vigo",
+    "name": "Arturo Bazán Vigo",
+    "kind": "panelista",
+    "role": {
+      "es": "Presidente de la Sociedad Nacional de Industrias – Cajamarca",
+      "en": "President, National Society of Industries – Cajamarca"
+    }
+  },
+  {
+    "id": "carlos-claux",
+    "name": "Carlos Claux",
+    "kind": "panelista",
+    "role": {
+      "es": "Gerente de Relaciones Institucionales y Sostenibilidad, Buenaventura",
+      "en": "Institutional Relations and Sustainability Manager, Buenaventura"
+    }
+  },
+  {
+    "id": "licare-peru",
+    "name": "Licare Perú",
+    "pendingName": true,
+    "kind": "panelista",
+    "role": { "es": "Gerente general de Licare Perú", "en": "General Manager, Licare Peru" }
+  }
+]

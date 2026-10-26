@@ -1,0 +1,26 @@
+{
+  "slug": "mineria-ilegal-planes-de-gobierno-2026-2031",
+  "type": "informe",
+  "title": {
+    "es": "Minería ilegal en los planes de gobierno 2026–2031",
+    "en": "Illegal mining in the 2026–2031 government plans"
+  },
+  "description": {
+    "es": "Documento del Observatorio de Minería Ilegal sobre la minería ilegal en los planes de gobierno 2026–2031.",
+    "en": "Document by the Illegal Mining Observatory on illegal mining in the 2026–2031 government plans."
+  },
+  "modules": [
+    5
+  ],
+  "regions": [],
+  "language": "es",
+  "format": "PDF",
+  "source": {
+    "kind": "url",
+    "href": "https://www.observatoriomineriailegal.org.pe/wp-content/uploads/2026/03/Mineria-y-planes-de-gobierno-v1-INTERIORES-.pdf"
+  },
+  "publisher": "Observatorio de Minería Ilegal",
+  "license": "Fuente externa",
+  "published": "2026-03",
+  "featured": true
+}

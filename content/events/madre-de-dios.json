@@ -1,0 +1,23 @@
+{
+  "slug": "madre-de-dios",
+  "title": {
+    "es": "Taller presencial en Madre de Dios",
+    "en": "In-person workshop in Madre de Dios"
+  },
+  "kind": "taller-presencial",
+  "region": "madre-de-dios",
+  "venue": { "es": "Puerto Maldonado", "en": "Puerto Maldonado" },
+  "modality": { "es": "Presencial", "en": "In person" },
+  "summary": {
+    "es": "Segundo taller presencial del programa, en la Amazonía. Estamos reuniendo la memoria: fecha, asistentes, panelistas, fotos y conclusiones.",
+    "en": "Second in-person workshop of the program, in the Amazon. We are putting the record together: date, attendees, panelists, photos and conclusions."
+  },
+  "stats": [],
+  "panel": [],
+  "methodology": [],
+  "lessons": [],
+  "gallery": [],
+  "resources": [],
+  "videos": [],
+  "status": "memoria-pendiente"
+}

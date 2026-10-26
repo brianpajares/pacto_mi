@@ -1,0 +1,26 @@
+{
+  "slug": "flujo-financiero-mineria-ilegal-uif",
+  "type": "lectura",
+  "title": {
+    "es": "Minería ilegal mueve en el último año 3 355 millones de dólares",
+    "en": "Illegal mining moves US$3.355 billion in the last year"
+  },
+  "description": {
+    "es": "Nota de EFE en El Oriente sobre el volumen financiero estimado de la minería ilegal, según la Unidad de Inteligencia Financiera.",
+    "en": "EFE report in El Oriente on the estimated financial volume of illegal mining, according to the Financial Intelligence Unit (UIF)."
+  },
+  "modules": [
+    2
+  ],
+  "regions": [],
+  "language": "es",
+  "format": "Web",
+  "source": {
+    "kind": "url",
+    "href": "https://www.eloriente.com/articulo/peru-mineria-ilegal-mueve-en-ultimo-ano-3355-millones-de-dolares/54643"
+  },
+  "publisher": "EFE / El Oriente",
+  "license": "Fuente externa",
+  "published": "2025-12-19",
+  "featured": true
+}

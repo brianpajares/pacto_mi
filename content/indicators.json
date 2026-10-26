@@ -1,0 +1,43 @@
+[
+  {
+    "id": "personas-formadas",
+    "label": { "es": "Personas formadas (universitarios + líderes comunitarios)", "en": "People trained (university students + community leaders)" },
+    "target": 300, "actual": null, "unit": "personas"
+  },
+  {
+    "id": "taller-cajamarca",
+    "label": { "es": "Participantes en el taller de Cajamarca", "en": "Participants at the Cajamarca workshop" },
+    "target": null, "actual": 220, "unit": "personas",
+    "source": "Informe de avance del programa", "asOf": "2025-11-19"
+  },
+  {
+    "id": "taller-madre-de-dios",
+    "label": { "es": "Participantes en el taller de Madre de Dios", "en": "Participants at the Madre de Dios workshop" },
+    "target": null, "actual": null, "unit": "personas"
+  },
+  {
+    "id": "ponencias",
+    "label": { "es": "Ponencias expertas híbridas", "en": "Hybrid expert talks" },
+    "target": 4, "actual": null, "unit": "ponencias"
+  },
+  {
+    "id": "identifican-impactos",
+    "label": { "es": "Participantes que identifican los impactos clave (fin del Módulo 3)", "en": "Participants who identify key impacts (end of Module 3)" },
+    "target": 100, "actual": null, "unit": "%"
+  },
+  {
+    "id": "plan-de-accion",
+    "label": { "es": "Participantes que presentan un plan de acción local (fin del Módulo 6)", "en": "Participants who present a local action plan (end of Module 6)" },
+    "target": 90, "actual": null, "unit": "%"
+  },
+  {
+    "id": "toolkits",
+    "label": { "es": "Toolkits impresos distribuidos", "en": "Printed toolkits distributed" },
+    "target": 700, "actual": null, "unit": "ejemplares"
+  },
+  {
+    "id": "beneficiarios-indirectos",
+    "label": { "es": "Beneficiarios indirectos", "en": "Indirect beneficiaries" },
+    "target": 1000, "actual": null, "unit": "personas"
+  }
+]

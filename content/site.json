@@ -1,0 +1,30 @@
+{
+  "name": "PACTO-MI",
+  "longName": {
+    "es": "Plataforma de Acción contra la Minería Ilegal",
+    "en": "Platform for Action against Illegal Mining"
+  },
+  "officialName": {
+    "es": "Red de Acción Juvenil contra la Minería Ilegal y el Crimen Organizado",
+    "en": "Youth Action Network Against Illegal Mining and Organized Crime"
+  },
+  "tagline": {
+    "es": "Empoderando jóvenes para proteger territorios y fortalecer la minería formal",
+    "en": "Empowering young people to protect territories and strengthen formal mining"
+  },
+  "email": "aeif.proyecto@gmail.com",
+  "whatsapp": "",
+  "linkedin": "",
+  "forms": { "registration": "", "directory": "", "contact": "" },
+  "replicationKit": "",
+  "lastUpdated": "2026-10-26",
+  "_todo": [
+    "TODO(equipo): URL de la página de LinkedIn PACTO-MI (linkedin)",
+    "TODO(equipo): decidir si el teléfono de contacto se publica como WhatsApp (whatsapp)",
+    "TODO(equipo): URL del formulario de inscripción a la formación (forms.registration)",
+    "TODO(equipo): URL del formulario del directorio de líderes con consentimiento (forms.directory)",
+    "TODO(equipo): URL del formulario de contacto, Tally o Google Forms (forms.contact)",
+    "TODO(equipo): carpeta de Drive con el kit de réplica (replicationKit)",
+    "TODO(equipo): elegir el nombre oficial en español (Red de Acción Juvenil… o Juventud en Acción…)"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "deforestacion-madre-de-dios-cincia",
+  "type": "lectura",
+  "title": {
+    "es": "Deforestación por minería de oro en Madre de Dios es la más alta en los últimos 32 años",
+    "en": "Gold-mining deforestation in Madre de Dios is the highest in 32 years"
+  },
+  "description": {
+    "es": "Datos de Madre de Dios y de mercurio, de la investigación de CINCIA reseñada por ProActivo.",
+    "en": "Data on Madre de Dios and mercury from CINCIA research, as reported by ProActivo."
+  },
+  "modules": [
+    3
+  ],
+  "regions": [
+    "madre-de-dios"
+  ],
+  "language": "es",
+  "format": "Web",
+  "source": {
+    "kind": "url",
+    "href": "https://proactivo.com.pe/deforestacion-por-mineria-de-oro-en-madre-de-dios-es-la-mas-alta-en-los-ultimos-32-anos/"
+  },
+  "publisher": "ProActivo",
+  "license": "Fuente externa",
+  "published": "2018-09-10",
+  "featured": true
+}

@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run build
+      - name: Pruebas de aceptación (AT-01…AT-09)
+        run: |
+          npx playwright install --with-deps chromium
+          npx next start -p 3100 &
+          npx wait-on http://localhost:3100/es --timeout 60000
+          npm run qa
