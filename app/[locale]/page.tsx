@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowRight, Mail } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
+import ContourBg from "@/components/ContourBg";
 import PeruMap from "@/components/PeruMap";
 import { SponsorLogos } from "@/components/SponsorStrip";
 import ResourceCard from "@/components/ResourceCard";
@@ -53,10 +54,7 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
 
       {/* ───────── HÉROE ───────── */}
       <section className="relative overflow-hidden bg-white">
-        <div
-          className="pattern-bg pointer-events-none absolute inset-0 opacity-60 [mask-image:linear-gradient(100deg,transparent_35%,#000_85%)]"
-          aria-hidden
-        />
+        <ContourBg className="opacity-60 [mask-image:linear-gradient(100deg,transparent_35%,#000_85%)]" />
         <div className="wrap relative grid items-center gap-10 py-10 md:py-16 lg:grid-cols-12 lg:gap-6 lg:py-20">
           <div className="lg:col-span-7">
             <p className="eyebrow mb-5">{t("home.hero.eyebrow")}</p>

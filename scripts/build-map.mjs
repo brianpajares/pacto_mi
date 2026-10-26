@@ -183,9 +183,9 @@ console.log("peru.json", (JSON.stringify(out).length / 1024).toFixed(1), "KB (co
 // ---- patrón de fondo (no geográfico), para secciones
 const PW = 1200;
 const PH = 640;
-const pstep = 12;
+const pstep = 14;
 const pf = buildField(21, pstep, PW, PH, false);
-const pth = Array.from({ length: 9 }, (_, i) => 0.18 + i * 0.07);
+const pth = Array.from({ length: 8 }, (_, i) => 0.2 + i * 0.08);
 const pd = contourPath(pf, pstep, pth);
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${PW} ${PH}" preserveAspectRatio="xMidYMid slice"><path d="${pd}" fill="none" stroke="#D3D9CE" stroke-width="1" stroke-linejoin="round"/></svg>`;
 fs.mkdirSync(path.join(root, "public/patterns"), { recursive: true });
@@ -215,3 +215,7 @@ const slim = {
 };
 fs.writeFileSync(path.join(root, "content/geo/peru.json"), JSON.stringify(slim));
 console.log("peru.json (slim)", (JSON.stringify(slim).length / 1024).toFixed(1), "KB · maps", (mapSvg("#fff").length / 1024).toFixed(1), "KB");
+
+// patrón en línea para el primer pliegue (un SVG en el HTML no cuenta como candidato de LCP)
+fs.writeFileSync(path.join(root, "content/geo/pattern.json"), JSON.stringify({ w: PW, h: PH, d: pd }));
+console.log("pattern.json", (pd.length / 1024).toFixed(1), "KB");

@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 import { Search, X } from "lucide-react";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import ResourceCard, { type ResourceView } from "./ResourceCard";
-import { EmptyState } from "./ui";
+import { EmptyState } from "./EmptyState";
 
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const KEYS = ["q", "tipo", "modulo", "idioma", "anio"] as const;

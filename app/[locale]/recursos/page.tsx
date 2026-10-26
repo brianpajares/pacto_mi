@@ -25,7 +25,7 @@ export default async function ResourcesPage({ params }: { params: Promise<{ loca
       <PageHeader eyebrow={t("nav.resources")} title={t("resources.title")} lede={t("resources.lede")} crumbs={[{ label: t("nav.resources") }]} />
       <section className="section">
         <div className="wrap">
-          <Suspense fallback={<p className="text-suave">{t("common.loading")}</p>}>
+          <Suspense fallback={<div className="min-h-[780px] text-suave" role="status">{t("common.loading")}</div>}>
             <ResourceLibrary items={items} />
           </Suspense>
 

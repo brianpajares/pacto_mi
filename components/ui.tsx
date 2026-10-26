@@ -1,7 +1,8 @@
 import { useLocale, useTranslations } from "next-intl";
-import { ChevronRight, Info, ArrowUpRight } from "lucide-react";
+import { ChevronRight, ArrowUpRight } from "lucide-react";
 import type { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
+import ContourBg from "./ContourBg";
 import { fmtDate, fmtNumber, loc } from "@/lib/format";
 import type { Locale } from "@/i18n/routing";
 import type { L10nT } from "@/lib/schema";
@@ -53,7 +54,7 @@ export function PageHeader({
 }) {
   return (
     <div className="relative overflow-hidden border-b border-borde bg-piedra-clara">
-      <div className="pattern-bg absolute inset-0 opacity-70" aria-hidden />
+      <ContourBg className="opacity-70" />
       <div className="wrap relative py-10 md:py-16">
         {crumbs && <Breadcrumbs items={crumbs} />}
         <div className="mt-6 max-w-4xl">
@@ -94,21 +95,7 @@ export function L({ v }: { v: L10nT | undefined }) {
   );
 }
 
-/* ───────── Estado vacío ───────── */
-export function EmptyState({ title, children, action, icon }: { title: string; children?: ReactNode; action?: ReactNode; icon?: ReactNode }) {
-  return (
-    <div className="rounded-md border-2 border-dashed border-borde bg-piedra-clara p-6 md:p-8" role="note">
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
-        <div className="grid h-11 w-11 shrink-0 place-items-center rounded-md bg-white text-tinta ring-1 ring-borde">{icon ?? <Info size={22} strokeWidth={1.75} aria-hidden />}</div>
-        <div className="min-w-0">
-          <p className="text-lg font-bold text-tinta">{title}</p>
-          {children && <div className="mt-1.5 max-w-[62ch] text-[0.9375rem] text-texto">{children}</div>}
-          {action && <div className="mt-4 flex flex-wrap gap-3">{action}</div>}
-        </div>
-      </div>
-    </div>
-  );
-}
+export { EmptyState } from "./EmptyState";
 
 /* ───────── Cifra con fuente y fecha (SourcedStat) ───────── */
 export type StatLike = {
