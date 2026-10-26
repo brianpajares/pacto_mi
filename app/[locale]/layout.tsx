@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
-import { Archivo, Public_Sans } from "next/font/google";
+import { Public_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
@@ -11,7 +12,14 @@ import SiteFooter from "@/components/SiteFooter";
 import { site } from "@/lib/content";
 import { SITE_URL, isConfigured } from "@/lib/site";
 
-const archivo = Archivo({ subsets: ["latin"], axes: ["wdth"], variable: "--font-archivo", display: "swap" });
+// Archivo (OFL), subconjunto latino con ejes acotados (peso 700–800, ancho 75–85 %): 38 KB en lugar de 90 KB.
+const archivo = localFont({
+  src: "../fonts/archivo-display.woff2",
+  variable: "--font-archivo",
+  weight: "700 800",
+  display: "swap",
+  declarations: [{ prop: "font-stretch", value: "75% 85%" }],
+});
 const publicSans = Public_Sans({ subsets: ["latin"], variable: "--font-public", display: "swap" });
 
 export const viewport: Viewport = { themeColor: "#ffffff", width: "device-width", initialScale: 1 };

@@ -38,3 +38,9 @@ Lee [`docs/GUIA-DE-EDICION.md`](docs/GUIA-DE-EDICION.md) (1 página). Lo pendien
 
 Cada cambio se publica primero en una URL de vista previa de Vercel (rama o *pull request*); solo después de la aprobación
 de la Oficina de Prensa de la Embajada se fusiona a `main`, que despliega a producción.
+
+## Créditos técnicos
+
+- Tipografías: **Archivo** (SIL OFL 1.1; subconjunto latino con ejes acotados en `app/fonts/`) y **Public Sans** (SIL OFL 1.1, vía `next/font`).
+- Cartografía: límites departamentales y provinciales del INEI en versión simplificada (repositorio `juaneladio/peru-geojson`).
+- Iconos: Lucide.
